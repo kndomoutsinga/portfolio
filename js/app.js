@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     renderProjects(SITE_DATA.projects, currentLang, document.getElementById("projects"));
     renderTimeline(SITE_DATA.experience, currentLang, document.getElementById("timeline"));
     renderFormation(SITE_DATA.formation, currentLang, document.getElementById("formation-list"));
+    renderCertifications(SITE_DATA.certifications, currentLang, document.getElementById("certifications-grid"));
     renderExtras(SITE_DATA.extras, currentLang, document.getElementById("extras-grid"));
     renderProfilParagraphs(t.profilParagraphs, document.getElementById("profil-paragraphs"));
 

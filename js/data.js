@@ -67,6 +67,16 @@ const SITE_DATA = {
       link: { url: "https://beta.hopcolis.com", label: "beta.hopcolis.com" }
     },
     {
+      name: "Job2Mail",
+      status: { label: { fr: "Outil personnel", en: "Personal tool" }, variant: "tool" },
+      description: {
+        fr: "Outil personnel d'automatisation de candidatures spontanées : recherche d'entreprises par zone et activité, recherche et enrichissement de contacts via API (Hunter.io, Apollo.io), génération de brouillons de mail personnalisés, détection des réponses par IMAP et relances automatiques. Chaque envoi reste validé manuellement avant de partir.",
+        en: "Personal tool automating spontaneous job applications: company search by area and industry, contact lookup and enrichment via API (Hunter.io, Apollo.io), personalized email draft generation, IMAP reply detection and automatic follow-ups. Every send stays manually reviewed before going out."
+      },
+      tags: ["Python", "Flask", "SQLite", "API REST"],
+      link: { url: "https://github.com/kndomoutsinga/Job2mail", label: { fr: "Code sur GitHub", en: "Code on GitHub" } }
+    },
+    {
       name: "Suivi de candidatures",
       status: { label: { fr: "Outil personnel", en: "Personal tool" }, variant: "tool" },
       description: {
@@ -86,6 +96,23 @@ const SITE_DATA = {
       },
       tags: ["JavaScript", "Next.js"],
       link: { url: "https://cabalou.net", label: "cabalou.net" }
+    }
+  ],
+
+  certifications: [
+    {
+      name: "Fundamentals of Predictive Project Management",
+      issuer: "PMI",
+      date: "09/2026",
+      image: "https://images.credly.com/images/37f7183c-9a25-4c72-916d-0c21572f5875/linkedin_thumb_image.png",
+      link: "https://www.credly.com/badges/00c7ac0a-c2a8-4372-9e71-064441112cea/public_url"
+    },
+    {
+      name: "Fundamentals of Agile Project Management",
+      issuer: "PMI",
+      date: "09/2026",
+      image: "https://images.credly.com/images/2677386a-c65f-4d4d-89f2-5b0babbc77d2/linkedin_thumb_KickoffAgileBadge.png",
+      link: "https://www.credly.com/badges/7b082d64-cd6e-4e3d-87da-e16a36593fbd/public_url"
     }
   ],
 
@@ -204,7 +231,7 @@ const UI_TEXT = {
       btnLinkedin: "Profil LinkedIn",
       btnGithub: "Code sur GitHub"
     },
-    headings: { profil: "Profil", competences: "Boîte à outils", projets: "Projets", experience: "Expérience", formation: "Formation", extras: "Au-delà du code", contact: "Contact" },
+    headings: { profil: "Profil", competences: "Boîte à outils", projets: "Projets", experience: "Expérience", formation: "Formation", badges: "Badges & certifications", extras: "Au-delà du code", contact: "Contact" },
     profilParagraphs: [
       "Diplômée d'un Master 2 Conception et Développement de Solutions Informatiques (Insta Paris) après une Licence professionnelle Analyste Programmeur à l'IAI au Gabon, j'ai construit mon parcours des deux côtés du développement : le code, et tout ce qui l'entoure — tests, spécifications, mise en production.",
       "Au Gabon, j'ai occupé plusieurs postes en développement et en systèmes/réseaux (CFAO Technology & Energy, Cyberschool Entrepreneuriat, Gabonaise de Chimie), avant plus de 4 ans comme développeuse à l'Agence Nationale de l'Aviation Civile. Je suis ensuite venue en France pour mon Master 2, avec un stage chez Cesare Paris puis une alternance chez Bouygues Telecom.",
@@ -214,6 +241,7 @@ const UI_TEXT = {
       text: "Ouverte à un poste en CDI, mobile partout en France. Le plus simple pour échanger : un email ou un message LinkedIn.",
       btnLinkedin: "LinkedIn"
     },
+    badges: { verify: "Vérifier le badge" },
     footNote: "Développeuse Full Stack · Testeuse QA · Chef de Projet",
     themeToggleLabel: "Changer de thème",
     langToggleLabel: "Switch to English"
@@ -229,7 +257,7 @@ const UI_TEXT = {
       btnLinkedin: "LinkedIn profile",
       btnGithub: "Code on GitHub"
     },
-    headings: { profil: "About", competences: "Toolkit", projets: "Projects", experience: "Experience", formation: "Education", extras: "Beyond the code", contact: "Contact" },
+    headings: { profil: "About", competences: "Toolkit", projets: "Projects", experience: "Experience", formation: "Education", badges: "Badges & certifications", extras: "Beyond the code", contact: "Contact" },
     profilParagraphs: [
       "After a Professional Bachelor's degree in Programming Analysis from IAI in Gabon, I earned a Master's degree in IT Solutions Design and Development (Insta Paris). I've built my career on both sides of development: the code itself, and everything around it — testing, specifications, deployment.",
       "In Gabon, I held several development and systems/network roles (CFAO Technology & Energy, Cyberschool Entrepreneuriat, Gabonaise de Chimie), before spending over 4 years as a developer at the Agence Nationale de l'Aviation Civile. I then came to France for my Master's degree, with an internship at Cesare Paris followed by a work-study contract at Bouygues Telecom.",
@@ -239,6 +267,7 @@ const UI_TEXT = {
       text: "Open to full-time positions, willing to relocate anywhere in France. The easiest way to reach me: email or a LinkedIn message.",
       btnLinkedin: "LinkedIn"
     },
+    badges: { verify: "Verify badge" },
     footNote: "Full Stack Developer · QA Tester · Project Manager",
     themeToggleLabel: "Toggle theme",
     langToggleLabel: "Passer en français"

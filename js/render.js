@@ -168,6 +168,46 @@ function renderProjects(projects, lang, container) {
   });
 }
 
+function renderCertifications(certifications, lang, container) {
+  container.innerHTML = "";
+  certifications.forEach(cert => {
+    const article = document.createElement("article");
+    article.className = "badge-card";
+
+    if (cert.image) {
+      const img = document.createElement("img");
+      img.className = "badge-card__img";
+      img.src = cert.image;
+      img.alt = cert.name;
+      img.loading = "lazy";
+      article.appendChild(img);
+    }
+
+    const body = document.createElement("div");
+    body.className = "badge-card__body";
+
+    const h3 = document.createElement("h3");
+    h3.textContent = cert.name;
+    body.appendChild(h3);
+
+    const meta = document.createElement("p");
+    meta.className = "badge-card__meta";
+    meta.textContent = cert.issuer + " · " + cert.date;
+    body.appendChild(meta);
+
+    const a = document.createElement("a");
+    a.className = "badge-card__link";
+    a.href = cert.link;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = UI_TEXT[lang].badges.verify + " →";
+    body.appendChild(a);
+
+    article.appendChild(body);
+    container.appendChild(article);
+  });
+}
+
 function renderTimeline(experience, lang, container) {
   container.innerHTML = "";
   experience.forEach(job => {
