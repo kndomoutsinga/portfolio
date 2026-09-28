@@ -123,20 +123,20 @@ const SITE_DATA = {
       org: "Bouygues Telecom — Meudon",
       bullets: [
         {
-          fr: "Développement back-end en Java/Spring Boot et PHP/Symfony avec Vue.js, exposé via API REST, pour des applications métiers B2B au sein d'une feature team.",
-          en: "Back-end development in Java/Spring Boot and PHP/Symfony with Vue.js, exposed via REST API, for B2B business applications within a feature team."
+          fr: "Développement back-end (Java/Spring Boot, PHP/Symfony) et front-end (Vue.js) exposé via API REST, pour des applications métiers B2B au sein d'une feature team.",
+          en: "Back-end (Java/Spring Boot, PHP/Symfony) and front-end (Vue.js) development exposed via REST API, for B2B business applications within a feature team."
         },
         {
-          fr: "Participation aux choix techniques et à l'architecture applicative, en coordination avec les équipes Produit et Développement.",
-          en: "Involved in technical decisions and application architecture, in coordination with the Product and Development teams."
+          fr: "Participation aux choix techniques et à l'architecture applicative, en coordination avec les équipes Produit et Développement : priorisation des besoins, arbitrages et respect des délais de sprint.",
+          en: "Involved in technical decisions and application architecture, coordinating with the Product and Development teams: prioritizing needs, making trade-offs and keeping to sprint deadlines."
+        },
+        {
+          fr: "Suivi de sprint de bout en bout au sein d'une équipe Scrum : cérémonies agiles (dailies, revues), reporting d'avancement régulier et documentation technique partagée avec l'équipe.",
+          en: "End-to-end sprint tracking within a Scrum team: agile ceremonies (daily stand-ups, reviews), regular progress reporting and technical documentation shared with the team."
         },
         {
           fr: "Tests et vérification des livrables avec Postman ; gestion de version Git/GitLab (Gitflow), intégration continue (CI/CD) et conteneurisation via Docker.",
           en: "Testing and verification of deliverables with Postman; version control with Git/GitLab (Gitflow), continuous integration (CI/CD) and containerization with Docker."
-        },
-        {
-          fr: "Cérémonies agiles (dailies, revues de sprint) au sein d'une équipe Scrum.",
-          en: "Agile ceremonies (daily stand-ups, sprint reviews) within a Scrum team."
         }
       ]
     },
@@ -146,8 +146,12 @@ const SITE_DATA = {
       org: "Cesare — Paris",
       bullets: [
         {
-          fr: "Conception et développement du site e-commerce Kodamer sous WordPress (thèmes, Elementor), avec optimisation des performances et recette fonctionnelle.",
-          en: "Design and development of the Kodamer e-commerce site on WordPress (themes, Elementor), including performance optimization and functional testing."
+          fr: "Conception et développement du site e-commerce Kodamer sous WordPress (thèmes, Elementor), du cadrage des besoins à la mise en ligne.",
+          en: "Design and development of the Kodamer e-commerce site on WordPress (themes, Elementor), from requirements framing through to launch."
+        },
+        {
+          fr: "Recette fonctionnelle et optimisation des performances avant mise en production.",
+          en: "Functional testing and performance optimization before going live."
         }
       ]
     },
@@ -161,12 +165,16 @@ const SITE_DATA = {
           en: "4-month internship converted into a permanent position, held for over 4 years with growing autonomy."
         },
         {
-          fr: "Conception et développement full-stack de bout en bout d'une application de génération et d'édition des documents de la Circulation Aérienne.",
-          en: "End-to-end full-stack design and development of an application for generating and editing Air Traffic Control documents."
+          fr: "Conception et développement full-stack de bout en bout (PHP/Laravel, JavaScript, MySQL/PostgreSQL) d'une application de génération et d'édition des documents de la Circulation Aérienne, du recueil des besoins à la mise en production.",
+          en: "End-to-end full-stack design and development (PHP/Laravel, JavaScript, MySQL/PostgreSQL) of an application for generating and editing Air Traffic Control documents, from requirements gathering through to production."
         },
         {
-          fr: "Bases de données MySQL/PostgreSQL. Maintenance évolutive et corrective en condition opérationnelle : diagnostic, correction d'anomalies, documentation technique et fonctionnelle.",
-          en: "MySQL/PostgreSQL databases. Ongoing maintenance and bug fixing in a live operational environment: diagnostics, bug fixes, technical and functional documentation."
+          fr: "Pilotage du projet au quotidien : planification, reporting régulier auprès du responsable, priorisation des évolutions et amélioration continue à partir des retours des équipes.",
+          en: "Day-to-day project management: planning, regular reporting to the manager, prioritizing enhancements and continuous improvement based on team feedback."
+        },
+        {
+          fr: "Maintenance évolutive et corrective en condition opérationnelle : diagnostic, correction d'anomalies, documentation technique et fonctionnelle.",
+          en: "Ongoing maintenance and bug fixing in a live operational environment: diagnostics, bug fixes, technical and functional documentation."
         }
       ]
     },
@@ -176,8 +184,12 @@ const SITE_DATA = {
       org: "CFAO Technology & Energy — Gabon",
       bullets: [
         {
-          fr: "Analyse des besoins et rédaction du cahier des charges pour une solution de gestion et de suivi des chèques fournisseurs (PHP, Laravel, PostgreSQL, JavaScript/AJAX), avec entretiens utilisateurs.",
-          en: "Requirements analysis and specifications for a supplier check management and tracking solution (PHP, Laravel, PostgreSQL, JavaScript/AJAX), including user interviews."
+          fr: "Recueil des besoins et entretiens utilisateurs, puis rédaction du cahier des charges pour une solution de gestion et de suivi des chèques fournisseurs.",
+          en: "Requirements gathering and user interviews, followed by writing the specifications for a supplier check management and tracking solution."
+        },
+        {
+          fr: "Conception et développement de la solution (PHP, Laravel, PostgreSQL, JavaScript/AJAX).",
+          en: "Design and development of the solution (PHP, Laravel, PostgreSQL, JavaScript/AJAX)."
         }
       ]
     }
@@ -235,7 +247,7 @@ const UI_TEXT = {
     nav: { profil: "Profil", competences: "Compétences", projets: "Projets", experience: "Expérience", contact: "Contact" },
     hero: {
       eyebrow: "Développement · Qualité logicielle · Gestion de projet",
-      lede: "PHP/Symfony, Laravel, React et Java/Spring Boot au quotidien — avec un vrai passage par les tests logiciels et la gestion de projet pendant mon Master 2. Un profil qui touche à plusieurs métiers de la même chaîne, pas un généraliste au rabais.",
+      lede: "PHP/Symfony, Laravel, React et Java/Spring Boot au quotidien, avec un vrai passage par les tests logiciels et la gestion de projet pendant mon Master 2. Un profil qui touche à plusieurs métiers de la même chaîne, pas un généraliste au rabais.",
       pillLocation: "France · mobile partout",
       pillStatus: "Ouverte à un poste en CDI",
       btnEmail: "Écrire un email",
@@ -244,12 +256,13 @@ const UI_TEXT = {
     },
     headings: { profil: "Profil", competences: "Boîte à outils", projets: "Projets", experience: "Expérience", formation: "Formation", badges: "Badges & certifications", extras: "Au-delà du code", contact: "Contact" },
     profilParagraphs: [
-      "Diplômée d'un Master 2 Conception et Développement de Solutions Informatiques (Insta Paris) après une Licence professionnelle Analyste Programmeur à l'IAI au Gabon, j'ai construit mon parcours des deux côtés du développement : le code, et tout ce qui l'entoure — tests, spécifications, mise en production.",
+      "Diplômée d'un Master 2 Conception et Développement de Solutions Informatiques (Insta Paris) après une Licence professionnelle Analyste Programmeur à l'IAI au Gabon, j'ai construit mon parcours des deux côtés du développement : le code, et tout ce qui l'entoure, du test à la mise en production en passant par les spécifications.",
       "Au Gabon, j'ai occupé plusieurs postes en développement et en systèmes/réseaux (CFAO Technology & Energy, Cyberschool Entrepreneuriat, Gabonaise de Chimie), avant plus de 4 ans comme développeuse à l'Agence Nationale de l'Aviation Civile. Je suis ensuite venue en France pour mon Master 2, avec un stage chez Cesare Paris puis une alternance chez Bouygues Telecom.",
-      "Le Master 2 m'a aussi formée à la gestion de projet et au test logiciel : je candidate donc aussi bien sur des postes de développement que de Testeuse QA ou de Chargée de Projet — trois façons différentes de tenir la même chaîne de production."
+      "Le Master 2 m'a aussi formée à la gestion de projet et au test logiciel : je candidate donc aussi bien sur des postes de développement que de Testeuse QA ou de Chargée de Projet, trois façons différentes de tenir la même chaîne de production.",
+      "En dehors des missions, je continue à apprendre en marchant : HopColis, la plateforme de crowdshipping que j'ai co-fondée pour le Gabon et la Côte d'Ivoire, reste mon terrain d'expérimentation pour tester de nouvelles technos en conditions réelles."
     ],
     contact: {
-      text: "Ouverte à un poste en CDI, mobile partout en France. Le plus simple pour échanger : un email ou un message LinkedIn.",
+      text: "Ouverte à un poste en CDI, mobile partout en France, et à toute opportunité professionnelle où mon profil technique et gestion de projet peut faire la différence. Le plus simple pour échanger : un email ou un message LinkedIn.",
       btnLinkedin: "LinkedIn"
     },
     badges: { verify: "Vérifier le badge" },
@@ -261,7 +274,7 @@ const UI_TEXT = {
     nav: { profil: "About", competences: "Skills", projets: "Projects", experience: "Experience", contact: "Contact" },
     hero: {
       eyebrow: "Development · Software Quality · Project Management",
-      lede: "PHP/Symfony, Laravel, React and Java/Spring Boot on a daily basis — with real hands-on experience in software testing and project management during my Master's degree. A profile that spans several roles in the same chain, not a watered-down generalist.",
+      lede: "PHP/Symfony, Laravel, React and Java/Spring Boot on a daily basis, with real hands-on experience in software testing and project management during my Master's degree. A profile that spans several roles in the same chain, not a watered-down generalist.",
       pillLocation: "France · open to relocation",
       pillStatus: "Open to full-time positions",
       btnEmail: "Send an email",
@@ -270,12 +283,13 @@ const UI_TEXT = {
     },
     headings: { profil: "About", competences: "Toolkit", projets: "Projects", experience: "Experience", formation: "Education", badges: "Badges & certifications", extras: "Beyond the code", contact: "Contact" },
     profilParagraphs: [
-      "After a Professional Bachelor's degree in Programming Analysis from IAI in Gabon, I earned a Master's degree in IT Solutions Design and Development (Insta Paris). I've built my career on both sides of development: the code itself, and everything around it — testing, specifications, deployment.",
+      "After a Professional Bachelor's degree in Programming Analysis from IAI in Gabon, I earned a Master's degree in IT Solutions Design and Development (Insta Paris). I've built my career on both sides of development: the code itself, and everything around it, from testing and specifications through to deployment.",
       "In Gabon, I held several development and systems/network roles (CFAO Technology & Energy, Cyberschool Entrepreneuriat, Gabonaise de Chimie), before spending over 4 years as a developer at the Agence Nationale de l'Aviation Civile. I then came to France for my Master's degree, with an internship at Cesare Paris followed by a work-study contract at Bouygues Telecom.",
-      "My Master's degree also trained me in project management and software testing: I apply for development roles as well as QA Tester or Project Coordinator positions — three different ways of running the same production chain."
+      "My Master's degree also trained me in project management and software testing: I apply for development roles as well as QA Tester or Project Coordinator positions, three different ways of running the same production chain.",
+      "Outside of client work, I keep learning by doing: HopColis, the crowdshipping platform I co-founded for Gabon and Côte d'Ivoire, is where I test new technologies under real conditions."
     ],
     contact: {
-      text: "Open to full-time positions, willing to relocate anywhere in France. The easiest way to reach me: email or a LinkedIn message.",
+      text: "Open to full-time positions, willing to relocate anywhere in France, and to any professional opportunity where my technical and project-management background can add value. The easiest way to reach me: email or a LinkedIn message.",
       btnLinkedin: "LinkedIn"
     },
     badges: { verify: "Verify badge" },
