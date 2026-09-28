@@ -18,11 +18,11 @@ const SITE_DATA = {
   toolkit: [
     {
       title: { fr: "Back-end", en: "Back-end" },
-      tags: ["PHP", "Symfony", "Laravel", "Java", "Spring Boot", "Python", "Django", "C++ (notions)"]
+      tags: ["PHP", "Symfony", "Laravel", "Java", "Spring Boot", "Node.js", "Express.js", "Python", "Django", "C++ (notions)"]
     },
     {
       title: { fr: "Front-end & mobile", en: "Front-end & mobile" },
-      tags: ["JavaScript", "TypeScript", "React", "Next.js", "Angular", "React Native", "Flutter", "Tailwind CSS"]
+      tags: ["JavaScript", "TypeScript", "React", "Next.js", "Angular", "React Native", "Flutter", "Tailwind CSS", "WordPress"]
     },
     {
       title: { fr: "Bases de données", en: "Databases" },
@@ -141,6 +141,17 @@ const SITE_DATA = {
       ]
     },
     {
+      date: "2024",
+      title: { fr: "Développeuse Web E-commerce (stage)", en: "E-commerce Web Developer (internship)" },
+      org: "Cesare — Paris",
+      bullets: [
+        {
+          fr: "Conception et développement du site e-commerce Kodamer sous WordPress (thèmes, Elementor), avec optimisation des performances et recette fonctionnelle.",
+          en: "Design and development of the Kodamer e-commerce site on WordPress (themes, Elementor), including performance optimization and functional testing."
+        }
+      ]
+    },
+    {
       date: "2019 – 2023",
       title: { fr: "Développeuse Full Stack", en: "Full Stack Developer" },
       org: "ANAC — Agence Nationale de l'Aviation Civile, Gabon",
@@ -165,8 +176,8 @@ const SITE_DATA = {
       org: "CFAO Technology & Energy — Gabon",
       bullets: [
         {
-          fr: "Analyse des besoins et rédaction du cahier des charges pour une solution de gestion et de suivi des chèques fournisseurs (PHP, PostgreSQL), avec entretiens utilisateurs.",
-          en: "Requirements analysis and specifications for a supplier check management and tracking solution (PHP, PostgreSQL), including user interviews."
+          fr: "Analyse des besoins et rédaction du cahier des charges pour une solution de gestion et de suivi des chèques fournisseurs (PHP, Laravel, PostgreSQL, JavaScript/AJAX), avec entretiens utilisateurs.",
+          en: "Requirements analysis and specifications for a supplier check management and tracking solution (PHP, Laravel, PostgreSQL, JavaScript/AJAX), including user interviews."
         }
       ]
     }
