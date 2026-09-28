@@ -1,4 +1,4 @@
-// mes infos, à modifier ici — fr / en côte à côte pour chaque texte
+// mes infos, à modifier ici : fr / en côte à côte pour chaque texte
 
 const SITE_DATA = {
 
@@ -118,9 +118,9 @@ const SITE_DATA = {
 
   experience: [
     {
-      date: "2024 – 2025",
+      date: "2024-2025",
       title: { fr: "Développeuse Full Stack (alternance)", en: "Full Stack Developer (work-study)" },
-      org: "Bouygues Telecom — Meudon",
+      org: "Bouygues Telecom, Meudon",
       bullets: [
         {
           fr: "Développement back-end (Java/Spring Boot, PHP/Symfony) et front-end (Vue.js) exposé via API REST, pour des applications métiers B2B au sein d'une feature team.",
@@ -143,7 +143,7 @@ const SITE_DATA = {
     {
       date: "2024",
       title: { fr: "Développeuse Web E-commerce (stage)", en: "E-commerce Web Developer (internship)" },
-      org: "Cesare — Paris",
+      org: "Cesare, Paris",
       bullets: [
         {
           fr: "Conception et développement du site e-commerce Kodamer sous WordPress (thèmes, Elementor), du cadrage des besoins à la mise en ligne.",
@@ -156,9 +156,9 @@ const SITE_DATA = {
       ]
     },
     {
-      date: "2019 – 2023",
+      date: "2019-2023",
       title: { fr: "Développeuse Full Stack", en: "Full Stack Developer" },
-      org: "ANAC — Agence Nationale de l'Aviation Civile, Gabon",
+      org: "ANAC (Agence Nationale de l'Aviation Civile), Gabon",
       bullets: [
         {
           fr: "Stage de 4 mois transformé en CDI, poste occupé sur plus de 4 ans avec une autonomie croissante.",
@@ -181,7 +181,7 @@ const SITE_DATA = {
     {
       date: "2019",
       title: { fr: "Analyste programmeur (CDD)", en: "Programmer Analyst (fixed-term contract)" },
-      org: "CFAO Technology & Energy — Gabon",
+      org: "CFAO Technology & Energy, Gabon",
       bullets: [
         {
           fr: "Recueil des besoins et entretiens utilisateurs, puis rédaction du cahier des charges pour une solution de gestion et de suivi des chèques fournisseurs.",
@@ -197,11 +197,11 @@ const SITE_DATA = {
 
   formation: [
     {
-      title: { fr: "Master 2 — Conception et Développement de Solutions Informatiques", en: "Master's Degree — IT Solutions Design & Development" },
+      title: { fr: "Master 2 en Conception et Développement de Solutions Informatiques", en: "Master's Degree in IT Solutions Design & Development" },
       org: "Insta Paris"
     },
     {
-      title: { fr: "Licence professionnelle — Analyste Programmeur", en: "Professional Bachelor's Degree — Programmer Analyst" },
+      title: { fr: "Licence professionnelle Analyste Programmeur", en: "Professional Bachelor's Degree in Programming Analysis" },
       org: "IAI, Gabon"
     }
   ],
@@ -210,8 +210,8 @@ const SITE_DATA = {
     {
       title: { fr: "Langues", en: "Languages" },
       tags: [
-        { fr: "Français — natif", en: "French — native" },
-        { fr: "Anglais — professionnel", en: "English — professional" }
+        { fr: "Français (natif)", en: "French (native)" },
+        { fr: "Anglais (professionnel)", en: "English (professional)" }
       ]
     },
     {
